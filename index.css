@@ -1,0 +1,84 @@
+body{
+	background-color:#27586B;
+}
+
+.middleText{
+	font-family:'Baloo Bhaina 2';
+	font-size:150px;
+	color:#f0f0f0;
+	position:absolute;
+    top: 25%;
+    left:30%;
+}
+
+.pageDescription{
+	font-family:'Baloo Bhaina 2';
+	font-size:40px;
+	color:#f0f0f0;
+	position:absolute;
+    top: 45%;
+    left:40%;
+}
+
+.imagini{
+	position:absolute;
+	top:70%;
+	left:32.5%;
+}
+
+.imagine{
+	padding-left:80px;
+}
+
+.telegram.img{
+	max-width:10%;
+	max-height:10%;
+}
+
+img.resize {
+  width:169px;
+  height:168px;
+}
+
+.dropbtn{
+	color:#f0f0f0;
+	background-color:#27586B;
+	padding:16px;
+	font-size:16px;
+	border:none;
+}
+
+.dropdown{
+	position:relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #27366b;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	left:10px;
+}
+
+.dropdown-content a{
+	font-family:'Baloo Bhaina 2';
+	color:#f0f0f0;
+	padding:12px 6px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover{
+	background-color:#27586B;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown:hover .dropbtn{
+	background-color: #27586B;
+}
